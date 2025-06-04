@@ -3,16 +3,44 @@
 public class Main {
     public static void main(String[] args) {
 
-        //expressões no código abaixo: myVariable = 50 e fatura = 50.
-        int myVariable = 20;
-        int fatura = 400;
+//        int value = 1;
+//        if (value == 1){
+//            System.out.println("Value was 1");
+//        } else if (value == 2){
+//            System.out.println("Value was 2");
+//        } else {
+//            System.out.println("Was not 1 or 2");
+//        }
 
-        // expressões no código abaixo: (myVariable > 49), (fatura > 499) e a expressão inteira ((myVariable > 49) && (fatura > 499))
-        if ((myVariable > 49) && (fatura > 499)) {
-            System.out.println("Ficaramos bem esse mês");
-        } else {
-            System.out.println("F total, sobra nada pro beta");
+        String presenteGabriela = "brutal";
+
+        switch (presenteGabriela) {
+            case "presente" -> System.out.println("muito bom");
+            case "presente2" -> System.out.println("ok");
+            case "camiseta", "play 5", "grip", "barra", "qualquer outro presente" ->
+                    System.out.println("nice");
+            default -> System.out.println("its over");
         }
 
+        String charLetter = "f";
+        System.out.println(getChar(charLetter));
+
     }
+
+    public static String getChar(String charLetter){
+        switch (charLetter){
+            case "A":
+                return "Able";
+            case "B":
+                return "Baker";
+            case "C":
+                return "Charlie";
+            case "D":
+                return "Dog";
+            case "E":
+                return "Easy";
+            default: return "Invalid letter";
+        }
+    }
+
 }
