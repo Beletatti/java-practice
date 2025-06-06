@@ -37,6 +37,7 @@ public class ForLoop {
             }
         }
 
+
         System.out.println("0 is " + (isPrime(0) ? "" : "NOT ") + "a prime number");
         System.out.println("1 is " + (isPrime(1) ? "" : "NOT ") + "a prime number");
         System.out.println("2 is " + (isPrime(2) ? "" : "NOT ") + "a prime number");
