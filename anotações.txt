@@ -1,0 +1,36 @@
+ENCAPSULAMENTO: agrupamento de comportamento e atributos em um único objeto,
+prática de ocultar campos e alguns métodos do acesso publico.
+oculta informações ou funcionamento interno de um objeto especifico.
+
+GETTERS E SETTERS:
+
+um getter é um método em uma classe que recupera o valor de um campo privado e o retorna (geralmente retorna apenas o valor de um campo privado).
+É comum nomear um método getter com o prefixo get, seguido pelo nome do campo em letras minusculas.
+
+um setter é um método em uma classe que define o valor de um campo privado. Pode simplesmente atribuir o argumento passado para o método ao campo,
+mas pode conter código para validar dados, verificar requisitos de segurança adicionais,
+garantir a imutabilidade do valor do campo ou qualquer outro código necessário para proteger e validar o estado de um objeto
+
+o objetivo desses métodos é controlar e proteger o acesso a campos privados
+
+KEYWORD: "this"
+
+Se refere a instancia que foi criada quando o objeto foi instanciado. portanto,
+THIS é um nome de referência especial para o objeto ou instancia, que pode ser usado para descrever a si mesmo. podemos usar THIS para acessar os campos da classe.
+
+diz ao java que queremos atualizar essa variável com o conteúdo do parâmetro que foi passado para esse método.
+maneira de atualizar o atributo usando um método em vez de tentar acessa-lo diretamente
+
+CONSTRUTORES:
+
+public class Account { // essa é uma declaração de classe }
+public Account() { // Essa é uma declaração de construtor }
+
+um construtor é usado na criação de um objeto. é um tipo de bloco special que tem um nome e parâmetros especificos, muito parecido com um método.
+você nunca inclui um tipo de retorno em um construtor, nem mesmo void. você pode e deve especificar um modificador de
+acesso apropriado para controlar quem deve ser capaz de criar novas instâncias da classe usando esse construtor.
+
+Sobrecarga de construtores: declara multiplos construtores com diferentes parametros
+Encadeamento de construtores:  ocorre quando um construtor chama explicitamente outro construtor sobrecarregado. você só pode usar o encadeamento com outros construtores
+
+você deve usar o statement "this()" para executar outro construtor e passar os argumentos requiridos
