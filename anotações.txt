@@ -34,3 +34,30 @@ Sobrecarga de construtores: declara multiplos construtores com diferentes parame
 Encadeamento de construtores:  ocorre quando um construtor chama explicitamente outro construtor sobrecarregado. você só pode usar o encadeamento com outros construtores
 
 você deve usar o statement "this()" para executar outro construtor e passar os argumentos requiridos
+
+- Umo bjeto pode ser considerado uma instancia
+- diferença de variaveis estaticas e instancias estaticas
+- todas instancias da classe compartilham a mesma variavel estatica
+se forem feitas alterações nessa variavel, todas instancias verão o efeito dessa alteração
+
+variaveis estaticas podem ser usadas para:
+-Armazenar contadores
+-gerar unique IDs
+-armazenar um valor constante que não muda. como PI, por exemplo
+-dentro de um método estático não podemos usar a keyword "this"
+
+POJO:
+um objeto java simples e antigo(cujo acrõnimo é POJO) é uma classe que geralmente tem apenas campos de instância.
+É usado para armazenar dados e transmitir dados entre classes funcionais.
+Normalmente ele não tem outros métodos, ou tem muito poucos além de getters e setters para os campos das instancias
+Muitas estrturas de banco de dados usam POJOs para ler dados ou gravar dados de banco de dados, arquivos ou streams
+
+pode ser chamado de bean ou Java bean
+javaBean é apenas um POJO com algumas regras extras aplicadas a ele. as vezes o pojo pode ser chamado de entity porque espelha as entidades do banco de dados
+outro acrônimo é DTO(Data tranfer object)
+
+no java moderno, o pojo foi substituido pela classe "record", que define as entidades (objetos) direto em seu cabeçalho (parametros), porém o record é imutavel, diferente do pojo tradicional que possui getters e setters para que seus dados possam ser alterados.
+
+Annotations são um tipo de metadados. Metados são uma maneira de descrever formalmente informações sobre nosso código.
+As anotações são mais estruturadas e tem mais significado do que os comentários
+@Override: informa ao compliador que esse é um tipo especial de método em Java, um método subistituido
