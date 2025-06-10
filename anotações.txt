@@ -2,6 +2,8 @@ ENCAPSULAMENTO: agrupamento de comportamento e atributos em um único objeto,
 prática de ocultar campos e alguns métodos do acesso publico.
 oculta informações ou funcionamento interno de um objeto especifico.
 
+###########################################################################
+
 GETTERS E SETTERS:
 
 um getter é um método em uma classe que recupera o valor de um campo privado e o retorna (geralmente retorna apenas o valor de um campo privado).
@@ -13,6 +15,8 @@ garantir a imutabilidade do valor do campo ou qualquer outro código necessário
 
 o objetivo desses métodos é controlar e proteger o acesso a campos privados
 
+###########################################################################
+
 KEYWORD: "this"
 
 Se refere a instancia que foi criada quando o objeto foi instanciado. portanto,
@@ -20,6 +24,8 @@ THIS é um nome de referência especial para o objeto ou instancia, que pode ser
 
 diz ao java que queremos atualizar essa variável com o conteúdo do parâmetro que foi passado para esse método.
 maneira de atualizar o atributo usando um método em vez de tentar acessa-lo diretamente
+
+###########################################################################
 
 CONSTRUTORES:
 
@@ -35,7 +41,7 @@ Encadeamento de construtores:  ocorre quando um construtor chama explicitamente 
 
 você deve usar o statement "this()" para executar outro construtor e passar os argumentos requiridos
 
-- Umo bjeto pode ser considerado uma instancia
+- Umo Objeto pode ser considerado uma instancia
 - diferença de variaveis estaticas e instancias estaticas
 - todas instancias da classe compartilham a mesma variavel estatica
 se forem feitas alterações nessa variavel, todas instancias verão o efeito dessa alteração
@@ -45,6 +51,8 @@ variaveis estaticas podem ser usadas para:
 -gerar unique IDs
 -armazenar um valor constante que não muda. como PI, por exemplo
 -dentro de um método estático não podemos usar a keyword "this"
+
+###########################################################################
 
 POJO:
 um objeto java simples e antigo(cujo acrõnimo é POJO) é uma classe que geralmente tem apenas campos de instância.
@@ -58,6 +66,18 @@ outro acrônimo é DTO(Data tranfer object)
 
 no java moderno, o pojo foi substituido pela classe "record", que define as entidades (objetos) direto em seu cabeçalho (parametros), porém o record é imutavel, diferente do pojo tradicional que possui getters e setters para que seus dados possam ser alterados.
 
+###########################################################################
+
 Annotations são um tipo de metadados. Metados são uma maneira de descrever formalmente informações sobre nosso código.
 As anotações são mais estruturadas e tem mais significado do que os comentários
-@Override: informa ao compliador que esse é um tipo especial de método em Java, um método subistituido
+@Override: informa ao compliador que esse é um tipo especial de método em Java, um método substituido
+
+###########################################################################
+
+HERANÇA:
+
+O uso de extends especifica a superclase (ou a classe pai) da classe que estamos declarando.
+
+Posso dizer que Cachorro é uma sub class ou classe filha da classe Animal, ou posso dizer que a classe Animal é uma parente da classe Cachorro.
+
+Uma classe pode extender apenas uma classe em sua clausula extends.
