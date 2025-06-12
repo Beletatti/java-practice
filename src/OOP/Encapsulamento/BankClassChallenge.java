@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Encapsulamento;
 
 public class BankClassChallenge {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Heranca;
 
 public class Fish extends HerançaAnimal {
 
