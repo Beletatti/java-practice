@@ -81,3 +81,38 @@ O uso de extends especifica a superclase (ou a classe pai) da classe que estamos
 Posso dizer que Cachorro é uma sub class ou classe filha da classe Animal, ou posso dizer que a classe Animal é uma parente da classe Cachorro.
 
 Uma classe pode extender apenas uma classe em sua clausula extends.
+
+###########################################################################
+
+ARRAYS:
+
+uma array é uma estrutura de dados que permite armazenar uma sequencia de valores, todos do mesmo tipo primitivo (int, double, boolean etc)
+
+pode-se usar arrays para aqualquer classe
+
+quando voce declara uma matriz, primeiro especifica o tipo dos elemtnos que deseja na array, depois inclue os colchetes"[]": int[] integerArray;
+
+Array initializer:
+
+Um inicializador de array facilita muito o trabalho de instanciar e inicializar uma matriz. int [] firstFivePositives = new int[] {1,2,3,4,5};
+
+length serve para ver o comrpimento da array. exemplo: firstFivePositives.length
+
+enhanced for loop:
+
+for (declaration -  : colletion) {
+	// código
+}
+
+declaration: variavel local com o mesmo tipo de um elemento da matriz.
+collection: array ou alguma outra variavel de coleção
+
+Arrays.binarySearch
+
+Podemos usar esse método para testar se um valor já está na nossa array, porém tem coisas importas a se lembrar:
+- A array precisa ser classificada (sorted)
+- Se houver valores duplicados na array, não há garantia de qual deles corresponderá
+- Os elementos devem ser comparaveis. A tentativa de comparar instancias de tipos de diferentes resultará em erros e resultados invalidos
+
+- O método binarySearch retorna a posição do valor, se encontrado
+- retorna -1 se nenhuma correspondencia é encontrada
