@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class MainArray {
     public static void main(String[] args) {
+
+        // array com 10 elements, com a variavel myIntArray sendo a referencia
         int[] myIntArray = new int [10];
         myIntArray[5] = 50;
 
@@ -60,6 +62,8 @@ public class MainArray {
         } else {
             System.out.println("s1 not equals s2");
         }
+
+
 
     }
 
