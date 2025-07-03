@@ -116,3 +116,13 @@ Podemos usar esse método para testar se um valor já está na nossa array, por�
 
 - O método binarySearch retorna a posição do valor, se encontrado
 - retorna -1 se nenhuma correspondencia é encontrada
+
+###########################################################################
+
+Listas:
+
+Uma lista é um tipo especial em java, chamado interface
+
+- ArrayList é uma classe que mantém uma array na memória que, na verdade, é maior que o necessário na maioria dos casos
+- Ela mantém o controle da capacidade ou do tamanho da array na memória, a medida que são adicionados elementos nessa array, ela cresce automaticamente
+
