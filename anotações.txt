@@ -128,4 +128,22 @@ Uma lista é um tipo especial em java, chamado interface
 
 ###########################################################################
 
+Enums:
+
+O tipo enum é o tipo do Java para suportar algo chamado de enumeração.
+O Java descreve o tipo enum como: um tipo de dados especial que contém constantes predefinidas
+- Uma constante é uma variavel cujo valor não pode ser alterado, uma vez que tenha sido definido
+
+Um enum é um pouco parecido com uma array, exceto pelo fato de que seus elementos são conhecidos. não podem ser alterados, e cada elemento
+pode ser referenciado por um nome constante, em vez de uma posição de índice.
+
+public enum DayOfTheWeek {
+    SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
+}
+
+- um enum, em sua forma mais simples, é descrito como uma classe. Entretante, a palavra-chave enum substitui a palavra-chave class.
+- Você pode nomear o enum com qualquer identificador válido, mas como em uma classe, a preferencia é por letras maiusculas e minusculas
+- No corpo do enum, você declara uma lista de identificadores constantes, separados por virgulas. Por convenção, esses rótulos são todos em letras minusculas.
+- Um enum é ordenado pela maneira como voce declara as constantes. no exemplo acima, SUNDAY é o primeiro dia da semana e SATURDAY o ultimo
+
 
