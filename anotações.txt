@@ -126,3 +126,6 @@ Uma lista é um tipo especial em java, chamado interface
 - ArrayList é uma classe que mantém uma array na memória que, na verdade, é maior que o necessário na maioria dos casos
 - Ela mantém o controle da capacidade ou do tamanho da array na memória, a medida que são adicionados elementos nessa array, ela cresce automaticamente
 
+###########################################################################
+
+

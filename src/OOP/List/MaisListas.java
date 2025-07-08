@@ -72,7 +72,7 @@ public class MaisListas {
 
         groceries.sort(Comparator.reverseOrder());
         System.out.println(groceries);
-        
+
         var groceryArray = groceries.toArray(new String[groceries.size()]);
         System.out.println(Arrays.toString(groceryArray));
     }
