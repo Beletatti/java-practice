@@ -166,3 +166,12 @@ A classe abstrata é declarada com o modificador abstract:
 abstract class Animal {}
 
 O objetivo de uma classe abstrata é definir o comportamento que suas subclasses devem ter, portanto, ela sempre participa da herança.
+
+###########################################################################
+
+INTERFACES
+
+Interfaces aceitam apenas campos publicos, estaticos e finais, que são constantes.
+- Interfaces podem ser estendidas, assim como classes que usam a keyword "extends". ex: interface OrbitEarth extends FlightEnabled {}
+essa interface exige que todas as classes implementem os métodos abstratos
+- Uma interface não implementa outra interface
