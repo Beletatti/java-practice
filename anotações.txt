@@ -146,4 +146,23 @@ public enum DayOfTheWeek {
 - No corpo do enum, você declara uma lista de identificadores constantes, separados por virgulas. Por convenção, esses rótulos são todos em letras minusculas.
 - Um enum é ordenado pela maneira como voce declara as constantes. no exemplo acima, SUNDAY é o primeiro dia da semana e SATURDAY o ultimo
 
+###########################################################################
 
+ABSTRAÇÃO E GENERALIZAÇÃO
+
+usamos os termos de Abstração e Genralização quando começamos a tentar modelar coisas do mundo real no software
+Quando você começa a modelar objetos para seu aplicativo, começa identificando quais recursos e comportamentos seus objetos tem em comum.
+Genelarizamos quando criamos uma hierarquia de classes.
+
+Parte da generalização é uso da abstração. Você pode generalizar um conjunto ded caracteristicas e comportamentos em um tipo abstrato
+Exemplo: Se você considerar um polvo, um cachorro e um pinguim, provavelmente dirá que todos eles são animais
+
+O java oferece suporte a abstração de varias maneiras diferentes. Ele nos permite criar uma hierarquia de classes, em que o topo da hierarquia,
+a classe, base, geralmente é um conceito abstrato, seja ele uma classe abstrata ou não
+- Java nos permite criar classes abstratas
+- Java nos da uma maneira de criar interfaces
+
+A classe abstrata é declarada com o modificador abstract:
+abstract class Animal {}
+
+O objetivo de uma classe abstrata é definir o comportamento que suas subclasses devem ter, portanto, ela sempre participa da herança.
